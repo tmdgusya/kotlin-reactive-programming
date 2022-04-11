@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxkotlin
-    runtimeOnly("io.reactivex.rxjava2:rxkotlin:2.4.0")
+    implementation("io.reactivex.rxjava3:rxkotlin:3.0.1")
 
     testImplementation(kotlin("test"))
 }
